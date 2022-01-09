@@ -1,0 +1,10 @@
+GET http://localhost:3000/todos/?search_q=
+
+###
+
+PUT http://localhost:3000/todos/3/
+Content-Type: application/json
+
+{
+    "status": "IN PROGRESS"
+}
